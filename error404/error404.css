@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Color1: #48285c;
+  --Color2: #9c0cf5;
+  --Color3: #ac60db;
+  --Color4: #481666;
+  --Color5: #7c469e;
+  --Color6: #9c0cf50f;
+  --Color7: white;
+  --ColorLetra1: white;
+  --ColorLetra2: Black;
+  --EspacioSeccion: 10vh;
+  --EspacioSeccion2: 0;
+  --Pelicula1: url(https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/863E75A035911DBA10F8D7EE1E433A12A1BF4915670B66597AC31C585A291942/scale?width=1200&aspectRatio=1.78&format=jpeg);
+  --Pelicula2: ;
+  --Pelicula3: ;
+  --Pelicula4: ;
+  --Letra1: "Bangers", cursive;
+  --Letra2: "Playfair Display", serif;
+}
+
+.imagen404 {
+  width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .imagen404 {
+    width: 600px;
+  }
+}
+
+.giro {
+  transition-duration: 0.9s;
+}
+.giro:hover {
+  transform: rotate3d(0.8, 1, 0, 180deg);
+  transition-timing-function: ease-in-out;
+}

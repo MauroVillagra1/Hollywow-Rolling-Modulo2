@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+:root {
+  --Color1: #48285c;
+  --Color2: #9c0cf5;
+  --Color3: #ac60db;
+  --Color4: #481666;
+  --Color5: #7c469e;
+  --Color6: #9c0cf50f;
+  --Color7: white;
+  --ColorLetra1: white;
+  --ColorLetra2: Black;
+  --EspacioSeccion: 10vh;
+  --EspacioSeccion2: 0;
+  --Pelicula1: url(https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/863E75A035911DBA10F8D7EE1E433A12A1BF4915670B66597AC31C585A291942/scale?width=1200&aspectRatio=1.78&format=jpeg);
+  --Pelicula2: ;
+  --Pelicula3: ;
+  --Pelicula4: ;
+  --Letra1: "Bangers", cursive;
+  --Letra2: "Playfair Display", serif;
+}
+
+body {
+  background-color: #48285c;
+}
+.bg-color {
+  background-color: #9c0cf5;
+}
+.bg-color-1 {
+  background-color: #ac60db;
+}
+.bg-color-2 {
+  background-color: #7c469e;
+}
+
+.bg-img {
+  background-image: url(https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215576/RollingCode/Icono%20Principal%20y%20Fondos/image-removebg-preview_86_1_tpn4es.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  font-family: "Bangers", cursive;
+  color: rgb(251, 248, 252);
+}
+
+.modal-nav {
+  width: 70vw;
+  max-width: none;
+  max-height: none;
+  margin: auto auto;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+.modal-header-nav {
+  background-color: var(--Color3);
+}
+
+.modal-title-nav {
+  font-family: var(--Letra1);
+  font-weight: 600;
+  color: var(--ColorLetra1);
+  font-size: calc(3vw + 2.5vh);
+}
+
+.modal-Paquete-Compra {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  width: 100%;
+  margin: auto auto;
+  background-color: var(--ColorLetra2);
+}
+
+.Compra {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 90%;
+  margin-bottom: 5%;
+}
+
+.Compra-Basico {
+  background-color: var(--Color2);
+}
+
+.Compra-Premium {
+  background-color: var(--ColorLetra1);
+}
+
+.Header-Compra {
+  height: 20%;
+}
+
+.Header-Compra-Basico {
+  background-color: var(--ColorLetra1);
+}
+
+.Header-Compra-Premium {
+  background-color: var(--Color4);
+}
+
+.Body-Compra {
+  height: 60%;
+}
+
+.help-list {
+  list-style: none;
+  color: var(--ColorLetra1);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0;
+  justify-content: space-around;
+  height: 100%;
+  padding: 5% 10% 2% 10%;
+  font-family: var(--ColorLetra2);
+  font-weight: 900;
+}
+
+.help-list-premium {
+  color: var(--ColorLetra2);
+}
+.title-help-list {
+  padding: 0;
+  font-family: var(--Letra2);
+  font-size: calc(1vw + 2.3vh);
+  color: var(--ColorLetra1);
+  margin: 0;
+  max-height: 100%;
+}
+.help-list-basico {
+  color: var(--Letra2);
+}
+.Body-Compra ul li {
+  text-align: center;
+}
+
+.Boton-Compra {
+  height: 12.5%;
+  width: 75%;
+  margin: auto auto;
+}
+
+.Boton-Comprar-Basico {
+  background-color: var(--Color1);
+  font-family: var(--Letra2);
+  color: var(--ColorLetra1);
+  font-weight: 800;
+}
+
+.Boton-Comprar-Premium {
+  background-color: var(--Color2);
+  font-family: var(--Letra2);
+  color: var(--ColorLetra1);
+  font-weight: 800;
+}
+
+.img-modal {
+  display: none;
+}
+
+.modal-body-Pago {
+  background-color: var(--ColorLetra2);
+  color: var(--ColorLetra1);
+}
+.labelMovil {
+  width: 100%;
+  margin: 0.5%;
+}
+.inputMovil {
+  width: 100%;
+  margin: 0.5%;
+}
+.TitleDatosPersonales {
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.TitleDatosTarjeta {
+  margin: 10% 0 5% 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-Paquete-Compra {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .Compra {
+    width: 45%;
+  }
+
+  .title-help-list {
+    font-size: initial;
+  }
+
+  .img-modal {
+    visibility: visible;
+  }
+  .img-modal {
+    display: initial;
+  }
+  .label-datos {
+    width: 44%;
+    margin: 2% 2%;
+    padding: 0;
+  }
+
+  .input-datos {
+    height: auto;
+    width: 100%;
+    margin: 2% 0;
+    padding: 0;
+  }
+
+  .Form-DatosTarjeta {
+    width: 100%;
+  }
+}

@@ -1,0 +1,421 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+:root {
+  --Color1: #48285c;
+  --Color2: #9c0cf5;
+  --Color3: #ac60db;
+  --Color4: #481666;
+  --Color5: #7c469e;
+  --Color6: #9c0cf50f;
+  --Color7: white;
+  --ColorLetra1: white;
+  --ColorLetra2: Black;
+  --EspacioSeccion: 10vh;
+  --EspacioSeccion2: 0;
+  --Pelicula1: url(https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/863E75A035911DBA10F8D7EE1E433A12A1BF4915670B66597AC31C585A291942/scale?width=1200&aspectRatio=1.78&format=jpeg);
+  --Pelicula2: ;
+  --Pelicula3: ;
+  --Pelicula4: ;
+  --Letra1: "Bangers", cursive;
+  --Letra2: "Playfair Display", serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.modal-nav {
+  width: 70vw;
+  max-width: none;
+  max-height: none;
+  margin: auto auto;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+.modal-header-nav {
+  background-color: var(--Color3);
+}
+
+.modal-title-nav {
+  font-family: var(--Letra1);
+  font-weight: 600;
+  color: var(--ColorLetra1);
+  font-size: calc(3vw + 2.5vh);
+}
+
+.modal-Paquete-Compra {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  width: 100%;
+  margin: auto auto;
+  background-color: var(--ColorLetra2);
+  /* justify-content: space-around; */
+}
+
+.Compra {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 90%;
+  margin-bottom: 5%;
+}
+
+.Compra-Basico {
+  background-color: var(--Color2);
+}
+
+.Compra-Premium {
+  background-color: var(--ColorLetra1);
+}
+
+.Header-Compra {
+  height: 20%;
+}
+
+.Header-Compra-Basico {
+  background-color: var(--ColorLetra1);
+}
+
+.Header-Compra-Premium {
+  background-color: var(--Color4);
+}
+
+.Body-Compra {
+  height: 60%;
+}
+
+.help-list {
+  list-style: none;
+  color: var(--ColorLetra1);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0;
+  justify-content: space-around;
+  height: 100%;
+  padding: 5% 10% 2% 10%;
+  font-family: var(--ColorLetra2);
+  font-weight: 900;
+}
+
+.help-list-premium {
+  color: var(--ColorLetra2);
+}
+.title-help-list {
+  padding: 0;
+  font-family: var(--Letra2);
+  font-size: calc(1vw + 2.3vh);
+  color: var(--ColorLetra1);
+  margin: 0;
+  max-height: 100%;
+}
+.help-list-basico {
+  color: var(--Letra2);
+}
+.Body-Compra ul li {
+  text-align: center;
+}
+
+.Boton-Compra {
+  height: 12.5%;
+  width: 75%;
+  margin: auto auto;
+}
+
+.Boton-Comprar-Basico {
+  background-color: var(--Color1);
+  font-family: var(--Letra2);
+  color: var(--ColorLetra1);
+  font-weight: 800;
+}
+
+.Boton-Comprar-Premium {
+  background-color: var(--Color2);
+  font-family: var(--Letra2);
+  color: var(--ColorLetra1);
+  font-weight: 800;
+}
+
+.img-modal {
+  display: none;
+}
+
+.modal-body-Pago {
+  background-color: var(--ColorLetra2);
+  color: var(--ColorLetra1);
+}
+.labelMovil {
+  width: 100%;
+  margin: 0.5%;
+}
+.inputMovil {
+  width: 100%;
+  margin: 0.5%;
+}
+.TitleDatosPersonales {
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.TitleDatosTarjeta {
+  margin: 10% 0 5% 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-Paquete-Compra {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .Compra {
+    width: 45%;
+  }
+
+  .title-help-list {
+    font-size: initial;
+  }
+
+  .img-modal {
+    visibility: visible;
+  }
+  .img-modal {
+    display: initial;
+  }
+  .label-datos {
+    width: 44%;
+    margin: 2% 2%;
+    padding: 0;
+  }
+
+  .input-datos {
+    height: auto;
+    width: 100%;
+    margin: 2% 0;
+    padding: 0;
+  }
+
+  .Form-DatosTarjeta {
+    width: 100%;
+  }
+}
+
+.color-1 {
+  background-color: #48285c;
+}
+.color-2 {
+  background-color: #9c0cf5;
+}
+.color-3 {
+  background-color: #ac60db;
+}
+.color-4 {
+  background-color: #481666;
+}
+.color-5 {
+  background-color: #7c469e;
+}
+.color-6 {
+  background-color: white;
+}
+
+#galeria img {
+  width: 100%;
+  height: 200px;
+}
+#galeria img:hover {
+  border: 5px solid #48285c;
+}
+#galeria h2 {
+  background-color: #7c469e;
+}
+
+.btn {
+  background-color: #ac60db;
+  border-radius: 0;
+}
+
+.btn:hover {
+  background-color: #7c469e;
+}
+
+.nombre {
+  color: aliceblue;
+}
+
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+  width: 60px;
+}
+
+.linea-estrella {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+@media screen and (min-width: 768px) {
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  .linea-estrella {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+.radio1 {
+  height: 400px;
+}
+.card-text {
+  color: aliceblue;
+}
+.card-title {
+  color: aliceblue;
+}
+
+nav {
+  font-family: "Bangers", cursive !important;
+  background-color: #9c0cf5;
+}
+
+.font-s {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.button-s {
+  background-color: #48285c;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  background-color: #481666;
+}
+
+.logo-redes {
+  width: 40px;
+}
+
+.store-image {
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-redes {
+    width: 70px;
+  }
+  .store-image {
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logo-redes {
+    width: 70px;
+  }
+  .store-image {
+    width: 250px;
+  }
+}
+
+.film-logo {
+  width: 100px;
+}
+
+.footer .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+.footer .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .grupo-1 .box figure img {
+  width: 150px;
+}
+.footer .grupo-1 .box h2 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.footer .grupo-1 .box p {
+  color: #efefef;
+  margin-bottom: 10px;
+}
+
+.footer .grupo-1 .box ul {
+  list-style: none;
+}
+
+.footer .grupo-2 {
+  background-color: #9c0cf5;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+.footer .grupo-2 small {
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .footer .grupo-1 {
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}

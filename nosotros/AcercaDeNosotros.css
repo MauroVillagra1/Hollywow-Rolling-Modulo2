@@ -1,0 +1,466 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+:root {
+  --Color1: #48285c;
+  --Color2: #9c0cf5;
+  --Color3: #ac60db;
+  --Color4: #481666;
+  --Color5: #7c469e;
+  --Color6: #9c0cf50f;
+  --Color7: white;
+  --ColorLetra1: white;
+  --ColorLetra2: Black;
+  --EspacioSeccion: 10vh;
+  --EspacioSeccion2: 0;
+  --Pelicula1: url(https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/863E75A035911DBA10F8D7EE1E433A12A1BF4915670B66597AC31C585A291942/scale?width=1200&aspectRatio=1.78&format=jpeg);
+  --Pelicula2: ;
+  --Pelicula3: ;
+  --Pelicula4: ;
+  --Letra1: "Bangers", cursive;
+  --Letra2: "Playfair Display", serif;
+}
+
+body {
+  background-color: black;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.Intro-AcercaDeNosotros {
+  height: 40vh;
+  text-align: center;
+  color: var(--ColorLetra1);
+  font-family: var(--ColorLetra1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  font-size: calc(2vh + 2vw);
+  margin: 10vh 0;
+}
+
+.Ficha {
+  margin-bottom: 10%;
+}
+
+.Title-Intro {
+  color: var(--Color3);
+  font-family: var(--Letra1);
+}
+
+.Fila1 {
+  height: calc(30vh + 10vw);
+  display: flex;
+  background-color: var(--Color4);
+}
+
+.Foto {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Foto .Imagen img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.Foto .Imagen {
+  background-color: white;
+  border-radius: 100%;
+  position: relative;
+  width: 45vw;
+  height: 45vw;
+  max-height: calc(25vh + 10vw);
+  max-width: calc(25vh + 10vw);
+  justify-content: center;
+  align-items: center;
+}
+
+.Foto .Imagen p {
+  color: rgba(0, 0, 0, 0);
+}
+
+.Contenedor-Nombre {
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  width: calc(25vw + 10vh);
+  height: calc(25vh + 10vw);
+  align-items: flex-end;
+}
+
+.Nombre {
+  font-size: calc(3vw + 0.25vh);
+  display: flex;
+  justify-content: center;
+  font-family: var(--Letra1);
+  white-space: nowrap;
+  height: 20%;
+  width: 100%;
+  background-color: var(--Color3);
+  align-items: baseline;
+}
+
+.p-Nombre {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.Info {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Info ul li {
+  color: var(--ColorLetra1);
+  font-size: calc(2vw + 2vh);
+  font-family: var(--Letra2);
+}
+
+.Fila2 {
+  height: calc(30vh + 20vw);
+  display: flex;
+  flex-direction: row;
+  max-height: 300px;
+}
+
+.Habilidades {
+  width: 33.3%;
+  height: 100%;
+  background-color: var(--Color1);
+  border-right: solid 2px var(--Color4);
+  border-left: solid 2px var(--Color4);
+}
+.Redes {
+  width: 33.3%;
+  height: 100%;
+  background-color: var(--Color1);
+  border-right: solid 2px var(--Color4);
+  border-left: solid 2px var(--Color4);
+}
+.Experiencia-Estudios {
+  width: 33.3%;
+  height: 100%;
+  background-color: var(--Color1);
+  border-right: solid 2px var(--Color4);
+  border-left: solid 2px var(--Color4);
+}
+
+.Title-All {
+  width: 100%;
+  height: 20%;
+  background-color: var(--Color1);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--Letra2);
+  color: var(--ColorLetra1);
+}
+
+.Componentes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto auto;
+  height: 70%;
+  align-items: center;
+  align-content: center;
+
+  border-top: solid 2px var(--Color4);
+}
+
+.Componentes img {
+  margin: 2%;
+  width: 40px;
+  height: 40px;
+}
+
+.Componentes-large img {
+  overflow: hidden;
+  width: auto;
+  object-fit: contain;
+}
+
+@media screen and (min-width: 768px) {
+  .Componentes-large img {
+    width: 50%;
+    height: 25%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+.Invert {
+  filter: invert(100%);
+}
+
+@media screen and (min-width: 768px) {
+  .Ficha {
+    display: flex;
+    flex-direction: row;
+  }
+  .Info {
+    display: none;
+  }
+  .Fila1 {
+    width: 25%;
+    height: 50vh;
+  }
+  .Foto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Foto .Imagen {
+    width: 20vw;
+    height: 20vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Contenedor-Nombre {
+    display: none;
+  }
+
+  .Fila2 {
+    width: 75%;
+    height: 50vh;
+    max-height: none;
+  }
+
+  .Habilidades {
+    width: 33.3%;
+    height: 100%;
+    background-color: var(--Color4);
+    border-right: none;
+    border-left: solid 7px var(--Color1);
+    border-bottom: solid 7px var(--Color1);
+  }
+  .Redes {
+    background-color: var(--Color4);
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 7px var(--Color1);
+  }
+  .Experiencia-Estudios {
+    background-color: var(--Color4);
+    border-right: solid 7px var(--Color1);
+    border-left: none;
+    border-bottom: solid 7px var(--Color1);
+  }
+
+  .Foto .Imagen p {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ffffff00;
+    border-radius: 100%;
+    font-size: calc(1vh + 1vw);
+  }
+
+  .Foto .Imagen p:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: var(--ColorLetra1);
+    padding: 32% 20%;
+    font-family: var(--Letra1);
+  }
+}
+
+.modal-nav {
+  width: 70vw;
+  max-width: none;
+  max-height: none;
+  margin: auto auto;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+.modal-header-nav {
+  background-color: var(--Color3);
+}
+
+.modal-title-nav {
+  font-family: var(--Letra1);
+  font-weight: 600;
+  color: var(--ColorLetra1);
+  font-size: calc(3vw + 2.5vh);
+}
+
+.modal-Paquete-Compra {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  width: 100%;
+  margin: auto auto;
+  background-color: var(--ColorLetra2);
+}
+
+.Compra {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 90%;
+  margin-bottom: 5%;
+}
+
+.Compra-Basico {
+  background-color: var(--Color2);
+}
+
+.Compra-Premium {
+  background-color: var(--ColorLetra1);
+}
+
+.Header-Compra {
+  height: 20%;
+}
+
+.Header-Compra-Basico {
+  background-color: var(--ColorLetra1);
+}
+
+.Header-Compra-Premium {
+  background-color: var(--Color4);
+}
+
+.Body-Compra {
+  height: 60%;
+}
+
+.help-list {
+  list-style: none;
+  color: var(--ColorLetra1);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0;
+  justify-content: space-around;
+  height: 100%;
+  padding: 5% 10% 2% 10%;
+  font-family: var(--ColorLetra2);
+  font-weight: 900;
+}
+
+.help-list-premium {
+  color: var(--ColorLetra2);
+}
+.title-help-list {
+  padding: 0;
+  font-family: var(--Letra2);
+  font-size: calc(1vw + 2.3vh);
+  color: var(--ColorLetra1);
+  margin: 0;
+  max-height: 100%;
+}
+.help-list-basico {
+  color: var(--Letra2);
+}
+.Body-Compra ul li {
+  text-align: center;
+}
+
+.Boton-Compra {
+  height: 12.5%;
+  width: 75%;
+  margin: auto auto;
+}
+
+.Boton-Comprar-Basico {
+  background-color: var(--Color1);
+  font-family: var(--Letra2);
+  color: var(--ColorLetra1);
+  font-weight: 800;
+}
+
+.Boton-Comprar-Premium {
+  background-color: var(--Color2);
+  font-family: var(--Letra2);
+  color: var(--ColorLetra1);
+  font-weight: 800;
+}
+
+.img-modal {
+  display: none;
+}
+
+.modal-body-Pago {
+  background-color: var(--ColorLetra2);
+  color: var(--ColorLetra1);
+}
+.labelMovil {
+  width: 100%;
+  margin: 0.5%;
+}
+.inputMovil {
+  width: 100%;
+  margin: 0.5%;
+}
+.TitleDatosPersonales {
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.TitleDatosTarjeta {
+  margin: 10% 0 5% 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-Paquete-Compra {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .Compra {
+    width: 45%;
+  }
+
+  .title-help-list {
+    font-size: initial;
+  }
+
+  .img-modal {
+    visibility: visible;
+  }
+  .img-modal {
+    display: initial;
+  }
+  .label-datos {
+    width: 44%;
+    margin: 2% 2%;
+    padding: 0;
+  }
+
+  .input-datos {
+    height: auto;
+    width: 100%;
+    margin: 2% 0;
+    padding: 0;
+  }
+
+  .Form-DatosTarjeta {
+    width: 100%;
+  }
+}

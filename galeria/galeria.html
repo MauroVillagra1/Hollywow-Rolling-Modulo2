@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      href="../assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./galeria.css" />
+    <link rel="stylesheet" href="../css/Principal.css">
+    <title>Hollywow</title>
+  </head>
+  <body class="d-flex flex-column min-vh-100 bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-color sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"
+          ><img
+            src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215433/RollingCode/Icono%20Principal%20y%20Fondos/Film_u8t22l.png"
+            alt=""
+            height="60"
+            width="60"
+          /><span class="font-s"> HOLLYWOW</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+          <form class="d-grid gap-2 d-md-flex">
+            <button class="button-s btn btn-dark" type="button">
+              <a
+                class="text-decoration-none text-white"
+                href="../nosotros/AcercaDeNosotros.html"
+                >Acerca de Nosotros</a
+              >
+            </button>
+            <button
+            class="button-s btn btn-dark"
+            type="button"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#modalsuscripcion"
+          >
+            Suscripción
+          </button>
+            <button class="button-s btn btn-dark" type="button">
+              <a
+                class="text-decoration-none text-white"
+                href="../contacto/contacto.html"
+              >
+                Contacto</a
+              >
+            </button>
+            <button class="button-s btn btn-dark" type="button">
+              <a
+                class="text-decoration-none text-white"
+                href="../galeria/galeria.html"
+                >Galería</a
+              >
+            </button>
+            <button class="button-s btn btn-dark" type="button">
+              <a
+                class="nav-link active link-light"
+                aria-current="page"
+                href="../login/login.html"
+                >Login
+              </a>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div
+        class="modal fade"
+        id="modalsuscripcion"
+        tabindex="-1"
+        aria-labelledby="openModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-scrollable modal-nav">
+          <div class="modal-content">
+            <div class="modal-header modal-header-nav">
+              <a class="navbar-brand" href="../index.html"
+                ><img
+                  class="img-modal"
+                  src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215433/RollingCode/Icono%20Principal%20y%20Fondos/Film_u8t22l.png"
+                  alt=""
+                  height="60"
+                  width="60"
+                />
+              </a>
+              <h5 class="modal-title modal-title-nav" id="openModalLabel">
+                Hollywow
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-Paquete-Compra modal-body">
+              <div class="Compra-Basico Compra">
+                <div class="Header-Compra Header-Compra-Basico">
+                  <ul class="help-list title-help-list help-list-basico">
+                    <li>Básico</li>
+                    <li>$50</li>
+                  </ul>
+                </div>
+                <div class="Body-Compra Body-Compra-Basico">
+                  <ul class="help-list">
+                    <li>1 Usuario</li>
+                    <li>Reseña 2 Dias Antes del Estreno</li>
+                    <li>Tiempo Ilimitado de uso</li>
+                  </ul>
+                </div>
+                <button
+                  class="Boton-Comprar-Basico Boton-Compra"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-dismiss="modal"
+                  data-bs-target="#modalsuscripcion2"
+                >
+                  Comprar
+                </button>
+              </div>
+              <div class="Compra-Premium Compra">
+                <div class="Header-Compra Header-Compra-Premium">
+                  <ul class="help-list title-help-list">
+                    <li>Premium</li>
+                    <li>$100</li>
+                  </ul>
+                </div>
+                <div class="Body-Compra Body-Compra-Premium">
+                  <ul class="help-list help-list-premium">
+                    <li>5 Usuario</li>
+                    <li>Reseña 7 Dias Antes del Estreno</li>
+                    <li>Tiempo Ilimitado de uso</li>
+                  </ul>
+                </div>
+                <button
+                  class="Boton-Comprar-Premium Boton-Compra"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-dismiss="modal"
+                  data-bs-target="#modalsuscripcion2"
+                >
+                  Comprar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="modalsuscripcion2"
+        tabindex="-1"
+        aria-labelledby="openModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-nav modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header modal-header-nav">
+              <a class="navbar-brand" href="../index.html"
+                ><img
+                  class="img-modal"
+                  src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215433/RollingCode/Icono%20Principal%20y%20Fondos/Film_u8t22l.png"
+                  alt=""
+                  height="60"
+                  width="60"
+                />
+              </a>
+              <h5 class="modal-title modal-title-nav" id="openModalLabel">
+                Hollywow
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body modal-body-Pago">
+              <div class="DatosPersonales">
+                <div class="TitleDatosPersonales">
+                  <h4>Datos de la Cuenta</h4>
+                </div>
+                <div class="Form-DatosPersonales">
+                  <label class="labelMovil" for="">Nombre de Usuario</label>
+                  <input class="inputMovil" type="text" />
+                  <label class="labelMovil" for="">Correo Electrónico</label>
+                  <input class="inputMovil" type="email" />
+                </div>
+              </div>
+              <div class="DatosTarjeta">
+                <div class="TitleDatosTarjeta">
+                  <h4>Datos de la Tarjeta</h4>
+                </div>
+                <div class="Form-DatosTarjeta">
+                  <label class="label-datos labelMovil" for=""
+                    >Nombre <input class="input-datos inputMovil" type="text"
+                  /></label>
+                  <label class="label-datos labelMovil" for=""
+                    >Apellido <input class="input-datos inputMovil" type="text"
+                  /></label>
+                  <label class="label-datos labelMovil" for=""
+                    >Numero de Tarjeta de Crédito
+                    <input class="input-datos inputMovil" type="number"
+                  /></label>
+                  <label class="label-datos labelMovil" for=""
+                    >Código de Seguridad
+                    <input class="input-datos inputMovil" type="number"
+                  /></label>
+                  <label class="label-datos labelMovil" for=""
+                    >Fecha de Vencimiento
+                    <input class="input-datos inputMovil" type="date"
+                  /></label>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-toggle="modal"
+                data-bs-dismiss="modal"
+                data-bs-target="#modalsuscripcion"
+              >
+                Volver Atrás
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Cancelar
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Comprar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="galeria" class="color-1 container">
+        <h1 class="text-center text-light color-4">Galería de Imágenes</h1>
+        <p class="p-3 text-light text-center">
+          Aquí podrás encontrar los mejores fondos de pantallas para tus
+          dispositivos
+        </p>
+        <h2 class="text-center text-light m-0">Spiderman No Way Home</h2>
+        <div class="row">
+          <div class="col-md-4 col-lg-3">
+            <img
+              src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1681004450/RollingCode/galeria%20de%20imagenes/spiderman_4_p7hgzh.jpg"
+              class="p-2"
+              alt="Wallpaper1"
+            />
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <img
+              src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1681004450/RollingCode/galeria%20de%20imagenes/spiderman_5_wff5o9.jpg"
+              class="p-2"
+              alt="Wallpaper2"
+            />
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <img
+              src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1681004450/RollingCode/galeria%20de%20imagenes/spiderman_3_hvj68f.jpg"
+              class="p-2"
+              alt="Wallpaper3"
+            />
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <img
+              src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1681004450/RollingCode/galeria%20de%20imagenes/spiderman_2_bn7gvr.jpg"
+              class="p-2"
+              alt="Wallpaper4"
+            />
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <img
+              src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1681004450/RollingCode/galeria%20de%20imagenes/spiderman_1_v7pfm3.jpg"
+              class="p-2"
+              alt="Wallpaper5"
+            />
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <img
+              src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1681004450/RollingCode/galeria%20de%20imagenes/spiderman_6_uio0ml.jpg"
+              class="p-2"
+              alt="Wallpaper6"
+            />
+          </div>
+          <h2 class="text-center text-light m-0">Avenger End Game</h2>
+        <div class="row">
+          <div class="col-md-4 col-lg-3">
+            <img
+            src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1681004449/RollingCode/galeria%20de%20imagenes/advenger_6_avudkv.jpg"
+            class="p-2"
+            alt="Wallpaper1"
+          />
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <img
+            src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1681004449/RollingCode/galeria%20de%20imagenes/advenger_2_f3n3iu.jpg"
+            class="p-2"
+            alt="Wallpaper2"
+          />
+          </div>
+          <div class="col-md-4 col-lg-3">
+          <img
+            src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1681004450/RollingCode/galeria%20de%20imagenes/advenger_3_eu9vxu.jpg"
+            class="p-2"
+            alt="Wallpaper3"
+          />
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <img
+            src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1681004451/RollingCode/galeria%20de%20imagenes/advenger_1_bgv52j.jpg"
+            class="p-2"
+            alt="Wallpaper4"
+          />
+            />
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <img
+            src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1681004453/RollingCode/galeria%20de%20imagenes/advenger_5_t0obfd.jpg"
+            class="p-2"
+            alt="Wallpaper5"
+          />
+            />
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <img
+            src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1681007017/RollingCode/galeria%20de%20imagenes/advenger_4_bo1exx.jpg"
+            class="p-2"
+            alt="Wallpaper6">
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="mt-auto footer color-4">
+      <div class="grupo-1">
+        <div class="box d-block d-sm-none">
+          <div class="text-center">
+            <h2>Redes sociales</h2>
+            <div class="d-flex justify-content-center">
+              <div>
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    class="logo-redes mx-2"
+                    src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Facebook_ku5noq.png"
+                    alt="redes-sociales"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    class="logo-redes mx-2"
+                    src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Instagram_r4lp6c.png"
+                    alt="redes-sociales"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://twitter.com/home?lang=es"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    class="logo-redes mx-2"
+                    src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Twitter_u9d4m4.png"
+                    alt="redes-sociales"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://snap.com/es-AR"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    class="logo-redes mx-2"
+                    src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Snapchat_epkkih.png"
+                    alt="redes-sociales"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-sm-block d-none">
+          <h5 class="text-white text-center">Descarga nuestra App</h5>
+          <div class="text-center">
+            <a
+              href="https://play.google.com/store/games?hl=es_AR"
+              target="_blank"
+              rel="”noreferrer”"
+            >
+              <img
+                class="store-image"
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215576/RollingCode/Icono%20descarga/image_5_zfitmk.png"
+                alt="redes-sociales"
+              />
+            </a>
+          </div>
+          <div class="text-center">
+            <a
+              href="https://www.apple.com/la/mac/"
+              target="_blank"
+              rel="”noreferrer”"
+            >
+              <img
+                class="store-image"
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215576/RollingCode/Icono%20descarga/image_4_jebiqo.png"
+                alt="redes-sociales"
+            /></a>
+          </div>
+        </div>
+        <div
+          class="box text-center d-flex flex-column d-none d-sm-block text-white"
+        >
+          <h2>Nuestro Equipo</h2>
+          <div class="d-flex justify-content-center">
+            <div>
+              <p>Diarte Ricardo</p>
+              <p>Figueroa Lucas</p>
+              <p>Gramajo Martin</p>
+              <p>Villagra Mauro</p>
+            </div>
+            <div class="">
+              <img
+                class="film-logo"
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215433/RollingCode/Icono%20Principal%20y%20Fondos/Film_u8t22l.png"
+                alt="film"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="box text-center d-flex flex-column d-sm-none d-block">
+          <h2 class="text-white">Descarga nuestra App</h2>
+          <div>
+            <a
+              href="https://play.google.com/store/games?hl=es_AR"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                class="store-image"
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215576/RollingCode/Icono%20descarga/image_5_zfitmk.png"
+                alt="redes-sociales"
+              />
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://www.apple.com/la/mac/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                class="store-image"
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215576/RollingCode/Icono%20descarga/image_4_jebiqo.png"
+                alt="redes-sociales"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="box d-sm-block d-none">
+          <div class="text-center">
+            <h2>Redes Sociales</h2>
+            <div>
+              <div class="py-2">
+                <a
+                  class="text-decoration-none"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    class="logo-redes px-1"
+                    src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Facebook_ku5noq.png"
+                    alt="redes-sociales"
+                  />
+                </a>
+                <a
+                  class="text-decoration-none"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    class="logo-redes"
+                    src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Instagram_r4lp6c.png"
+                    alt="redes-sociales"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  class="text-decoration-none"
+                  href="https://twitter.com/home?lang=es"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    class="logo-redes px-1"
+                    src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Twitter_u9d4m4.png"
+                    alt="redes-sociales"
+                  />
+                </a>
+                <a
+                  class="text-decoration-none"
+                  href="https://snap.com/es-AR"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    class="logo-redes"
+                    src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Snapchat_epkkih.png"
+                    alt="redes-sociales"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grupo-2">
+        <small
+          >&copy; 2023 <b>Rolling Code</b> - Todos los Derechos
+          Reservados.</small
+        >
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/eb496ab1a0.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

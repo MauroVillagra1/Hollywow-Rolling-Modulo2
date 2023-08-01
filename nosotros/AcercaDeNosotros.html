@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./AcercaDeNosotros.css" />
+    <link rel="stylesheet" href="../css/Principal.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/Nav.css" />
+    <script src="./AcercaDeNosotros.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js"
+      integrity="sha384-q9CRHqZndzlxGLOj+xrdLDJa9ittGte1NksRmgJKeCV9DrM7Kz868XYqsKWPpAmn"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <title>Acerca de Nosotros</title>
+  </head>
+  <body>
+    <nav class="sticky-top">
+      <div class="navbar navbar-expand-lg navbar-dark bg-color">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"
+            ><img
+              src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215433/RollingCode/Icono%20Principal%20y%20Fondos/Film_u8t22l.png"
+              alt=""
+              height="60"
+              width="60"
+            /><span class="font-s"> HOLLYWOW</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+            <form class="d-grid gap-2 d-md-flex">
+              <button class="button-s btn btn-dark" type="button">
+                <a
+                  class="text-decoration-none text-white"
+                  href="./AcercaDeNosotros.html"
+                  >Acerca de Nosotros</a
+                >
+              </button>
+              <button
+                class="button-s btn btn-dark"
+                type="button"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#modalsuscripcion"
+              >
+                Suscripcion
+              </button>
+
+              <button class="button-s btn btn-dark" type="button">
+                <a
+                  class="text-decoration-none text-white"
+                  href="../contacto/contacto.html"
+                >
+                  Contacto</a
+                >
+              </button>
+              <button class="button-s btn btn-dark" type="button">
+                <a
+                  class="text-decoration-none text-white"
+                  href="../galeria/galeria.html"
+                  >Galeria</a
+                >
+              </button>
+              <button class="button-s btn btn-dark" type="button">
+                <a
+                  class="nav-link active link-light"
+                  aria-current="page"
+                  href="../login/login.html"
+                  >Login
+                </a>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div
+        class="modal fade"
+        id="modalsuscripcion"
+        tabindex="-1"
+        aria-labelledby="openModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-scrollable modal-nav">
+          <div class="modal-content">
+            <div class="modal-header modal-header-nav">
+              <a class="navbar-brand" href="../index.html"
+                ><img
+                  class="img-modal"
+                  src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215433/RollingCode/Icono%20Principal%20y%20Fondos/Film_u8t22l.png"
+                  alt=""
+                  height="60"
+                  width="60"
+                />
+              </a>
+              <h5 class="modal-title modal-title-nav" id="openModalLabel">
+                Hollywow
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-Paquete-Compra modal-body">
+              <div class="Compra-Basico Compra">
+                <div class="Header-Compra Header-Compra-Basico">
+                  <ul class="help-list title-help-list help-list-basico">
+                    <li>Basico</li>
+                    <li>$50</li>
+                  </ul>
+                </div>
+                <div class="Body-Compra Body-Compra-Basico">
+                  <ul class="help-list">
+                    <li>1 Usuario</li>
+                    <li>Reseña 2 Dias Antes del Estreno</li>
+                    <li>Tiempo Ilimitado de uso</li>
+                  </ul>
+                </div>
+                <button
+                  class="Boton-Comprar-Basico Boton-Compra"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-dismiss="modal"
+                  data-bs-target="#modalsuscripcion2"
+                >
+                  Comprar
+                </button>
+              </div>
+              <div class="Compra-Premium Compra">
+                <div class="Header-Compra Header-Compra-Premium">
+                  <ul class="help-list title-help-list">
+                    <li>Premium</li>
+                    <li>$100</li>
+                  </ul>
+                </div>
+                <div class="Body-Compra Body-Compra-Premium">
+                  <ul class="help-list help-list-premium">
+                    <li>5 Usuario</li>
+                    <li>Reseña 7 Dias Antes del Estreno</li>
+                    <li>Tiempo Ilimitado de uso</li>
+                  </ul>
+                </div>
+                <button
+                  class="Boton-Comprar-Premium Boton-Compra"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-dismiss="modal"
+                  data-bs-target="#modalsuscripcion2"
+                >
+                  Comprar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="modalsuscripcion2"
+        tabindex="-1"
+        aria-labelledby="openModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-nav modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header modal-header-nav">
+              <a class="navbar-brand" href="../index.html"
+                ><img
+                  class="img-modal"
+                  src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215433/RollingCode/Icono%20Principal%20y%20Fondos/Film_u8t22l.png"
+                  alt=""
+                  height="60"
+                  width="60"
+                />
+              </a>
+              <h5 class="modal-title modal-title-nav" id="openModalLabel">
+                Hollywow
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body modal-body-Pago">
+              <div class="DatosPersonales">
+                <div class="TitleDatosPersonales">
+                  <h4>Datos de la Cuenta</h4>
+                </div>
+                <div class="Form-DatosPersonales">
+                  <label class="labelMovil" for="">Nombre de Usuario</label>
+                  <input class="inputMovil" type="text" />
+                  <label class="labelMovil" for="">Correo Electronico</label>
+                  <input class="inputMovil" type="email" />
+                </div>
+              </div>
+              <div class="DatosTarjeta">
+                <div class="TitleDatosTarjeta">
+                  <h4>Datos de la Tarjeta</h4>
+                </div>
+                <div class="Form-DatosTarjeta">
+                  <label class="label-datos labelMovil" for=""
+                    >Nombre <input class="input-datos inputMovil" type="text"
+                  /></label>
+                  <label class="label-datos labelMovil" for=""
+                    >Apellido <input class="input-datos inputMovil" type="text"
+                  /></label>
+                  <label class="label-datos labelMovil" for=""
+                    >Numero de Tarjeta de Credito
+                    <input class="input-datos inputMovil" type="number"
+                  /></label>
+                  <label class="label-datos labelMovil" for=""
+                    >Codigo de Seguridad
+                    <input class="input-datos inputMovil" type="number"
+                  /></label>
+                  <label class="label-datos labelMovil" for=""
+                    >Fecha de Vencimiento
+                    <input class="input-datos inputMovil" type="date"
+                  /></label>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-toggle="modal"
+                data-bs-dismiss="modal"
+                data-bs-target="#modalsuscripcion"
+              >
+                Volver Atras
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Cancelar
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Comprar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Intro-AcercaDeNosotros">
+        <p class="Title-Intro">Rc-Devil</p>
+        <p>
+          Es un grupo de desarrollo que se encarga de el desarrollo de sitios
+          web. Recuerda que con RC-DEVil programamos juntos el éxito, somos un
+          equipo, una visión, un logro
+        </p>
+      </div>
+      <div class="Ficha">
+        <div class="Fila1">
+          <div class="Foto">
+            <div class="Imagen hover-Nombre">
+              <img
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680925757/RollingCode/Avatars/c1c0146d-1bb6-48a3-92c4-dc8b9e55b587_msxtih.jpg"
+                alt=""
+              />
+              <p>
+                Ricardo Diarte
+                <br />
+                37 Años
+                <br />
+                Miembro Scrum
+              </p>
+            </div>
+            <div class="Contenedor-Nombre">
+              <div class="Nombre hover-Nombre">
+                <p class="p-Nombre">Ricardo Diarte</p>
+              </div>
+            </div>
+          </div>
+          <div class="Info">
+            <ul>
+              <li>Edad: 37 Años</li>
+              <li>Pais: Argentina</li>
+              <li>Provincia: Tucuman</li>
+              <li>Rol: Miembro Scrum</li>
+            </ul>
+          </div>
+        </div>
+        <div class="Fila2">
+          <div class="Habilidades">
+            <div class="Title-All"><p>Habilidades</p></div>
+            <div class="Componentes">
+              <img
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680216554/RollingCode/Habilidades/file_type_html_icon_130541_1_oaihfn.png"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680216554/RollingCode/Habilidades/file_type_css_icon_130661_1_avxxva.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="Redes">
+            <div class="Title-All"><p>Redes</p></div>
+            <div class="Componentes">
+              <a
+                href="https://instagram.com/grmrdiarte?igshid=ZDdkNTZiNTM="
+                target="_blank"
+                rel="noreferrer"
+                ><img
+                  src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Instagram_r4lp6c.png"
+                  alt=""
+              /></a>
+              <a
+                href="https://www.facebook.com/grmr.diarte?mibextid=ZbWKwL"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Facebook_ku5noq.png"
+                  alt=""
+              /></a>
+              <a
+                href="../error404/error404.html"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215742/RollingCode/Iconos%20Redes/linkedin_socialnetwork_17441_xdd0gu.png"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="Experiencia-Estudios">
+            <div class="Title-All"><p>Experiencia / Estudios</p></div>
+            <div class="Componentes Componentes-large">
+              <img
+                class="Invert"
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215575/RollingCode/Experiencia-Estudios/logo-rolling_lolvsu.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Ficha">
+        <div class="Fila1">
+          <div class="Foto">
+            <div class="Imagen hover-Nombre">
+              <img
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680925756/RollingCode/Avatars/c350987d-1b95-4e49-b84c-f7eefe731f06_kz1asn.jpg"
+                alt=""
+              />
+              <p>
+                Martin Gramajo
+                <br />
+                29 Años
+                <br />
+                TeachLead
+              </p>
+            </div>
+            <div class="Contenedor-Nombre">
+              <div class="Nombre">
+                <p class="p-Nombre hover-Nombre">Martin Gramajo</p>
+              </div>
+            </div>
+          </div>
+          <div class="Info">
+            <ul>
+              <li>Edad: 29 Años</li>
+              <li>Pais: Argentina</li>
+              <li>Provincia: Tucuman</li>
+              <li>Rol: TeachLead</li>
+            </ul>
+          </div>
+        </div>
+        <div class="Fila2">
+          <div class="Habilidades">
+            <div class="Title-All"><p>Habilidades</p></div>
+            <div class="Componentes">
+              <img
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680216554/RollingCode/Habilidades/file_type_html_icon_130541_1_oaihfn.png"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680216554/RollingCode/Habilidades/file_type_css_icon_130661_1_avxxva.png"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680216554/RollingCode/Habilidades/file_type_js_official_icon_130509_bx3cuu.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="Redes">
+            <div class="Title-All"><p>Redes</p></div>
+            <div class="Componentes">
+              <a
+                href="https://www.instagram.com/_mago.jpg/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Instagram_r4lp6c.png"
+                  alt=""
+              /></a>
+
+              <a
+                href="https://www.facebook.com/martinmaguito "
+                target="_blank"
+                rel="noreferrer"
+                ><img
+                  src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Facebook_ku5noq.png"
+                  alt=""
+              /></a>
+
+              <a
+                href="https://www.linkedin.com/in/martin-gramajo-20740a221/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215742/RollingCode/Iconos%20Redes/linkedin_socialnetwork_17441_xdd0gu.png"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="Experiencia-Estudios">
+            <div class="Title-All"><p>Experiencia / Estudios</p></div>
+            <div class="Componentes Componentes-large">
+              <img
+                class="Invert"
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215575/RollingCode/Experiencia-Estudios/logo-rolling_lolvsu.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Ficha">
+        <div class="Fila1">
+          <div class="Foto">
+            <div class="Imagen hover-Nombre">
+              <img
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1681234143/RollingCode/Avatars/5j6yxf07_oa94ak.png"
+                alt=""
+              />
+              <p>
+                Mauro Villagra
+                <br />
+                20 Años
+                <br />
+                Scrum Master
+              </p>
+            </div>
+            <div class="Contenedor-Nombre">
+              <div class="Nombre">
+                <p class="p-Nombre hover-Nombre">Mauro Villagra</p>
+              </div>
+            </div>
+          </div>
+          <div class="Info">
+            <ul>
+              <li>Edad: 20 Años</li>
+              <li>Pais: Argentina</li>
+              <li>Provincia: Tucuman</li>
+              <li>Rol: Scrum Master</li>
+            </ul>
+          </div>
+        </div>
+        <div class="Fila2">
+          <div class="Habilidades">
+            <div class="Title-All"><p>Habilidades</p></div>
+            <div class="Componentes">
+              <img
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680216554/RollingCode/Habilidades/file_type_html_icon_130541_1_oaihfn.png"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680216554/RollingCode/Habilidades/file_type_css_icon_130661_1_avxxva.png"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680216554/RollingCode/Habilidades/file_type_js_official_icon_130509_bx3cuu.png"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680926857/RollingCode/Habilidades/java_22523_2_yzg4kl.png"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680926892/RollingCode/Habilidades/file_type_mariadb_icon_130403_1_kdh7fv.png"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680927031/RollingCode/Habilidades/c_original_logo_icon_146611_1_i1dmek.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="Redes">
+            <div class="Title-All"><p>Redes</p></div>
+            <div class="Componentes">
+              <a
+                href="https://www.instagram.com/mauro_villagra1/"
+                target="_blank"
+                rel="noreferrer"
+                ><img
+                  src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Instagram_r4lp6c.png"
+                  alt=""
+              /></a>
+
+              <a
+                href="https://twitter.com/Mauro_Villagra1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Twitter_u9d4m4.png"
+                  alt=""
+              /></a>
+
+              <a
+                href="https://www.facebook.com/mauro.villagra.520"
+                target="_blank"
+                rel="noreferrer"
+                ><img
+                  src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Facebook_ku5noq.png"
+                  alt=""
+              /></a>
+
+              <a
+                href="https://www.linkedin.com/feed/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215742/RollingCode/Iconos%20Redes/linkedin_socialnetwork_17441_xdd0gu.png"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="Experiencia-Estudios">
+            <div class="Title-All"><p>Experiencia / Estudios</p></div>
+            <div class="Componentes Componentes-large">
+              <img
+                class="Invert"
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215575/RollingCode/Experiencia-Estudios/logo-rolling_lolvsu.png"
+                alt=""
+              />
+              <img
+                class="Invert"
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215575/RollingCode/Experiencia-Estudios/logo-utn_hmpkhn.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Ficha">
+        <div class="Fila1">
+          <div class="Foto">
+            <div class="Imagen hover-Nombre">
+              <img
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1681232661/RollingCode/Avatars/image-removebg-preview_94_tfhjki.png"
+                alt=""
+              />
+              <p>
+                Lucas Figueroa
+                <br />
+                31 Años
+                <br />
+                Miembro Scrum
+              </p>
+            </div>
+            <div class="Contenedor-Nombre">
+              <div class="Nombre">
+                <p class="p-Nombre hover-Nombre">Lucas Figueroa</p>
+              </div>
+            </div>
+          </div>
+          <div class="Info">
+            <ul>
+              <li>Edad: 31 Años</li>
+              <li>Pais: Argentina</li>
+              <li>Provincia: Tucuman</li>
+              <li>Rol: Miembro Scrum</li>
+            </ul>
+          </div>
+        </div>
+        <div class="Fila2">
+          <div class="Habilidades">
+            <div class="Title-All"><p>Habilidades</p></div>
+            <div class="Componentes">
+              <img
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680216554/RollingCode/Habilidades/file_type_html_icon_130541_1_oaihfn.png"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680216554/RollingCode/Habilidades/file_type_css_icon_130661_1_avxxva.png"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680216554/RollingCode/Habilidades/file_type_js_official_icon_130509_bx3cuu.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="Redes">
+            <div class="Title-All"><p>Redes</p></div>
+            <div class="Componentes">
+              <a
+                href="https://instagram.com/lucasdfigueroa?igshid=YmMyMTA2M2Y="
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Instagram_r4lp6c.png"
+                  alt=""
+              /></a>
+              <a
+                href="https://www.facebook.com/lucatoni99?mibextid=ZbWKwL"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Facebook_ku5noq.png"
+                  alt=""
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/lucas-daniel-figueroa-0a10b222b"
+                target="_blank"
+                rel="noreferrer"
+                ><img
+                  src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215742/RollingCode/Iconos%20Redes/linkedin_socialnetwork_17441_xdd0gu.png"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="Experiencia-Estudios">
+            <div class="Title-All"><p>Experiencia / Estudios</p></div>
+            <div class="Componentes Componentes-large">
+              <img
+                class="Invert"
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215575/RollingCode/Experiencia-Estudios/logo-rolling_lolvsu.png"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1681234399/RollingCode/Experiencia-Estudios/image-removebg-preview_93_nmykff.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="mt-auto footer color-4">
+      <div class="grupo-1">
+        <div class="box d-block d-sm-none">
+          <div class="text-center">
+            <h2>Redes sociales</h2>
+            <div class="d-flex justify-content-center">
+              <div>
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    class="logo-redes mx-2"
+                    src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Facebook_ku5noq.png"
+                    alt="redes-sociales"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    class="logo-redes mx-2"
+                    src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Instagram_r4lp6c.png"
+                    alt="redes-sociales"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://twitter.com/home?lang=es"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    class="logo-redes mx-2"
+                    src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Twitter_u9d4m4.png"
+                    alt="redes-sociales"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://snap.com/es-AR"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    class="logo-redes mx-2"
+                    src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Snapchat_epkkih.png"
+                    alt="redes-sociales"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-sm-block d-none">
+          <h5 class="text-white text-center">Descarga nuestra App</h5>
+          <div class="text-center">
+            <a
+              href="https://play.google.com/store/games?hl=es_AR"
+              target="_blank"
+              rel="”noreferrer”"
+            >
+              <img
+                class="store-image"
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215576/RollingCode/Icono%20descarga/image_5_zfitmk.png"
+                alt="redes-sociales"
+              />
+            </a>
+          </div>
+          <div class="text-center">
+            <a
+              href="https://www.apple.com/la/mac/"
+              target="_blank"
+              rel="”noreferrer”"
+            >
+              <img
+                class="store-image"
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215576/RollingCode/Icono%20descarga/image_4_jebiqo.png"
+                alt="redes-sociales"
+            /></a>
+          </div>
+        </div>
+        <div
+          class="box text-center d-flex flex-column d-none d-sm-block text-white"
+        >
+          <h2>Nuestro Equipo</h2>
+          <div class="d-flex justify-content-center">
+            <div>
+              <p>Diarte Ricardo</p>
+              <p>Figueroa Lucas</p>
+              <p>Gramajo Martin</p>
+              <p>Villagra Mauro</p>
+            </div>
+            <div class="">
+              <img
+                class="film-logo"
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215433/RollingCode/Icono%20Principal%20y%20Fondos/Film_u8t22l.png"
+                alt="film"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="box text-center d-flex flex-column d-sm-none d-block">
+          <h2 class="text-white">Descarga nuestra App</h2>
+          <div>
+            <a
+              href="https://play.google.com/store/games?hl=es_AR"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                class="store-image"
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215576/RollingCode/Icono%20descarga/image_5_zfitmk.png"
+                alt="redes-sociales"
+              />
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://www.apple.com/la/mac/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                class="store-image"
+                src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215576/RollingCode/Icono%20descarga/image_4_jebiqo.png"
+                alt="redes-sociales"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="box d-sm-block d-none">
+          <div class="text-center">
+            <h2>Redes Sociales</h2>
+            <div>
+              <div class="py-2">
+                <a
+                  class="text-decoration-none"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    class="logo-redes px-1"
+                    src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Facebook_ku5noq.png"
+                    alt="redes-sociales"
+                  />
+                </a>
+                <a
+                  class="text-decoration-none"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    class="logo-redes"
+                    src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Instagram_r4lp6c.png"
+                    alt="redes-sociales"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  class="text-decoration-none"
+                  href="https://twitter.com/home?lang=es"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    class="logo-redes px-1"
+                    src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Twitter_u9d4m4.png"
+                    alt="redes-sociales"
+                  />
+                </a>
+                <a
+                  class="text-decoration-none"
+                  href="https://snap.com/es-AR"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    class="logo-redes"
+                    src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215689/RollingCode/Iconos%20Redes/Snapchat_epkkih.png"
+                    alt="redes-sociales"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grupo-2">
+        <small
+          >&copy; 2023 <b>Rolling Code</b> - Todos los Derechos
+          Reservados.</small
+        >
+      </div>
+    </footer>
+  </body>
+</html>
